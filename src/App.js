@@ -157,7 +157,7 @@ class App extends Component {
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Keynote"
+              title="Puheenvuorot"
               times={[EventFilters.TIMES.afternoon_keynote]}
               events={filteredEvents}
             />
@@ -198,6 +198,9 @@ class App extends Component {
             <Col sm={12}>
               <div className="App--description">
                 <p className="App--description__text">
+                  <p>
+                  Tällä työkalulla pääset etsimään itsellesi sitä oikeaa työpajaa Johtajatulilla. Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa.
+                  </p>
                 Haluatko työpajalta matalan kynnyksen katsauksen aiheeseen vai perusteellisemman sukelluksen suoraan syvään päähän? Haluatko kokeilla jotain ihan uutta vai syventää osaamistasi jo hallitsemissasi johtamistaidoissa? Työpajatyökalussamme voit valita työpajoja tutustu, perehdy ja syvenny-tasojen mukaan.
                   </p>
                   <p>
