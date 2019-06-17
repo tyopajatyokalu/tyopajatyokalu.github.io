@@ -19,6 +19,7 @@ class FavoritesList extends Component {
 			return (
 				<div className="FavoritesList--item" key={event.name + event.host}>
 					<span className="FavoritesList--item__name">{event.name + ' - ' + event.host}</span>
+					<span classaName="FavoritesList--item__description">{event.description}</span>
 					<div className="FavortiesList--item__time">{event.time} 
 					<span
 						className="FavoritesList--item__remove"

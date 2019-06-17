@@ -14,7 +14,15 @@
 
 .FavoritesList--item__name {
 	font-weight: bold;
+	margin-right: 30px;
+}
 
+.FavoritesList--item__description{
+	align-self: right;
+}
+.FavortiesList--item__time {
+	align-self: right;
+	margin-left: 30px;
 }
 
 .FavoritesList--item__remove {
@@ -27,8 +35,4 @@
 
 .FavoritesList--item__remove:hover {
 	text-decoration: underline;
-}
-
-.FavortiesList--item__time {
-	align-self: right;
 }

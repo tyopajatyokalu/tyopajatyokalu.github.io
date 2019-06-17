@@ -201,7 +201,13 @@ class App extends Component {
                   <p>
                   Tällä työkalulla pääset etsimään itsellesi sitä oikeaa työpajaa Johtajatulilla. Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa.
                   </p>
-                Haluatko työpajalta matalan kynnyksen katsauksen aiheeseen vai perusteellisemman sukelluksen suoraan syvään päähän? Haluatko kokeilla jotain ihan uutta vai syventää osaamistasi jo hallitsemissasi johtamistaidoissa? Työpajatyökalussamme voit valita työpajoja tutustu, perehdy ja syvenny-tasojen mukaan.
+                  <p>
+                  Lauantain työpajat jakautuvat aamu- ja iltapäivävuoroihin. Valitse siis kaksi työpajaa joihin haluat osallistua - yksi aamupäivälle ja yksi iltapäivälle.  
+                  </p>
+                  <p>
+                  Huomaathan, että iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo. 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo. 16:00 - 16:45 järjestettävää puheenvuoroa.
+                  </p>
+                  Haluatko työpajalta matalan kynnyksen katsauksen aiheeseen vai perusteellisemman sukelluksen suoraan syvään päähän? Haluatko kokeilla jotain ihan uutta vai syventää osaamistasi jo hallitsemissasi johtamistaidoissa? Työpajatyökalussamme voit valita työpajoja tutustu, perehdy ja syvenny-tasojen mukaan.
                   </p>
                   <p>
                   Tutustu: Työpajoissa harjoitellaan uusia taitoja ja tutustutaan uusiin aiheisiin ja näkökulmiin tarvitsematta aiempaa tietoa tai kokemusta. 
@@ -213,7 +219,10 @@ class App extends Component {
                   Syvenny: Työpajoissa sukelletaan syvemmälle rajattuun aiheeseen. Valitse tämä, jos haluat vähemmästä enemmän. Joissakin työpajoissa omat kokemukset tai aiempi tietämys aiheesta ovat toivottavia keskusteluun osallistumiseksi.
                   </p>
                   <p>
-                  Eri taitotasojen työpajat on merkitty eri värein: tutustu = keltainen, perehdy = oranssi ja syvenny = punainen.
+                  Työpajat on merkitty taitotasojen mukaan eri värein: tutustu = keltainen, perehdy = oranssi ja syvenny = punainen.
+                  </p>
+                  <p>
+                  Vaeltajat (18 - 21-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”Suosittelemme Vaeltajille”. 
                   </p>
           
               </div>
