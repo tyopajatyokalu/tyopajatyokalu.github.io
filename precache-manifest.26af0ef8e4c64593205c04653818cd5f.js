@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c73d4070a7fd6ecacf5e",
-    "url": "/static/css/main.6a9b273f.chunk.css"
+    "revision": "4393a3c73b83d54af0af",
+    "url": "/static/css/main.5912d334.chunk.css"
   },
   {
-    "revision": "c73d4070a7fd6ecacf5e",
-    "url": "/static/js/main.7de7348b.chunk.js"
+    "revision": "4393a3c73b83d54af0af",
+    "url": "/static/js/main.1bfa7511.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,15 +24,15 @@ self.__precacheManifest = [
     "url": "/static/media/Tondu_Beta.ef566c49.ttf"
   },
   {
-    "revision": "7e0ee8c45d872446649aacd3ce96e1f7",
-    "url": "/static/media/SourceSansPro-Bold.7e0ee8c4.ttf"
-  },
-  {
     "revision": "3f482321becfaa40fcb19825fa717859",
     "url": "/static/media/SourceSansPro-Regular.3f482321.ttf"
   },
   {
-    "revision": "a9fd3e91b9ea4cf19bc0ca7ab94d1c36",
+    "revision": "7e0ee8c45d872446649aacd3ce96e1f7",
+    "url": "/static/media/SourceSansPro-Bold.7e0ee8c4.ttf"
+  },
+  {
+    "revision": "6367965ef69893e6c0d6bc7a2a5cde06",
     "url": "/index.html"
   }
 ];
