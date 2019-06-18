@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/SourceSansPro-Regular.3f482321.ttf"
   },
   {
-    "revision": "d20ad2743ffd7bd0ef16628d9916111f",
+    "revision": "0b5a05a8b9c5d5c152602851f48877e9",
     "url": "/index.html"
   }
 ];
