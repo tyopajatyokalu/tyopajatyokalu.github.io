@@ -15,19 +15,20 @@ class FavoritesList extends Component {
 			return sum;
 		}, []);
 
-		return favoritedEvents.map(event => {
+		return _.sortBy(favoritedEvents, 'time').map(event => {
 			return (
 				<div className="FavoritesList--item" key={event.name + event.host}>
-					<span className="FavoritesList--item__name">{event.name + ' - ' + event.host}</span>
-					<span classaName="FavoritesList--item__description">{event.description}</span>
-					<div className="FavortiesList--item__time">{event.time} 
+					<span className="FavoritesList--item__time">{event.time}</span>
+					<div className="FavoritesList--item__text">
+						<p className="FavoritesList--item__name">{event.name + ' - ' + event.host}</p>
+						<span className="FavoritesList--item__description">{event.description}</span>
+					</div>
 					<span
 						className="FavoritesList--item__remove"
 						onClick={() => this.props.onToggleFavorite(event)}
 					>
 						Poista
 					</span>
-					</div>
 				</div>
 			);
 		})
