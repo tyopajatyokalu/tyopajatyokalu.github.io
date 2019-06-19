@@ -12,9 +12,6 @@ body {
   height: 100vh;
 }
 
-.App--photographer {
-  
-}
 
 .App--toggle-view {
   width: 100%;
@@ -49,6 +46,15 @@ body {
 .App--toggle-view__option-text {
   color: white;
   text-align: center;
+}
+
+.App--description__title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.App--description__text{
+  font-weight: bold;
 }
 
 .App--description {

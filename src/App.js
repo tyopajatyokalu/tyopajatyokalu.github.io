@@ -197,7 +197,10 @@ class App extends Component {
           <Row>
             <Col sm={12}>
               <div className="App--description">
-                <p className="App--description__text">
+                <p className="App--description__title">Tervetuloa Työpajatyökaluun!</p>
+
+                <p className="App--description__text">Valitse työpajasi nyt etukäteen, ilmoittaudu elokuussa<p/>
+                </p>
                   <p>
                   Tällä työkalulla pääset etsimään itsellesi sitä oikeaa työpajaa Johtajatulilla. Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa.
                   </p>
@@ -207,24 +210,24 @@ class App extends Component {
                   <p>
                   Huomaathan, että iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo. 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo. 16:00 - 16:45 järjestettävää puheenvuoroa.
                   </p>
+                  <p className="App--description__text">Valitse tasosi</p>
+                  <p>
                   Haluatko työpajalta matalan kynnyksen katsauksen aiheeseen vai perusteellisemman sukelluksen suoraan syvään päähän? Haluatko kokeilla jotain ihan uutta vai syventää osaamistasi jo hallitsemissasi johtamistaidoissa? Työpajatyökalussamme voit valita työpajoja tutustu, perehdy ja syvenny-tasojen mukaan.
                   </p>
+                  <div className="App--description__levels">
                   <p>
-                  Tutustu: Työpajoissa harjoitellaan uusia taitoja ja tutustutaan uusiin aiheisiin ja näkökulmiin tarvitsematta aiempaa tietoa tai kokemusta. 
+                  <strong>Tutustu (keltainen):</strong><br/> Työpajoissa harjoitellaan uusia taitoja ja tutustutaan uusiin aiheisiin ja näkökulmiin tarvitsematta aiempaa tietoa tai kokemusta. 
                   </p>
                   <p>
-                  Perehdy: Asiaa johtamisesta ja johtajuudesta laajasti eri näkökulmista.
+                  <strong>Perehdy (oranssi):</strong><br/> Asiaa johtamisesta ja johtajuudesta laajasti eri näkökulmista.
                   </p>
                   <p>
-                  Syvenny: Työpajoissa sukelletaan syvemmälle rajattuun aiheeseen. Valitse tämä, jos haluat vähemmästä enemmän. Joissakin työpajoissa omat kokemukset tai aiempi tietämys aiheesta ovat toivottavia keskusteluun osallistumiseksi.
-                  </p>
-                  <p>
-                  Työpajat on merkitty taitotasojen mukaan eri värein: tutustu = keltainen, perehdy = oranssi ja syvenny = punainen.
+                  <strong>Syvenny (punainen):</strong><br/> Työpajoissa sukelletaan syvemmälle rajattuun aiheeseen. Valitse tämä, jos haluat vähemmästä enemmän. Joissakin työpajoissa omat kokemukset tai aiempi tietämys aiheesta ovat toivottavia keskusteluun osallistumiseksi.
                   </p>
                   <p>
                   Vaeltajat (18 - 21-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”Suosittelemme Vaeltajille”. 
                   </p>
-          
+                  </div>
               </div>
             </Col>
           </Row>
