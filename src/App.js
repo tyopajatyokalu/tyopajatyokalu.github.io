@@ -199,20 +199,17 @@ class App extends Component {
               <div className="App--description">
                 <p className="App--description__title">Tervetuloa Työpajatyökaluun!</p>
 
-                <p className="App--description__text">Valitse työpajasi nyt etukäteen, ilmoittaudu elokuussa<p/>
+                <p className="App--description__text"><p/>
                 </p>
                   <p>
-                  Tällä työkalulla pääset etsimään itsellesi sitä oikeaa työpajaa Johtajatulilla. Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa.
+                  Selaa työpajoja etukäteen, ilmoittaudu elokuussa. Ohjelma täydentyy vielä heinäkuun aikana.
                   </p>
                   <p>
-                  Lauantain työpajat jakautuvat aamu- ja iltapäivävuoroihin. Valitse siis kaksi työpajaa joihin haluat osallistua - yksi aamupäivälle ja yksi iltapäivälle.  
+                  1. Valitse lauantaiksi kaksi työpajaa - yksi aamu- ja yksi iltapäivälle. Iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo. 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo. 16:00 - 16:45 järjestettävää puheenvuoroa.  
                   </p>
+                  <p className="App--description__text"></p>
                   <p>
-                  Huomaathan, että iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo. 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo. 16:00 - 16:45 järjestettävää puheenvuoroa.
-                  </p>
-                  <p className="App--description__text">Valitse tasosi</p>
-                  <p>
-                  Haluatko työpajalta matalan kynnyksen katsauksen aiheeseen vai perusteellisemman sukelluksen suoraan syvään päähän? Haluatko kokeilla jotain ihan uutta vai syventää osaamistasi jo hallitsemissasi johtamistaidoissa? Työpajatyökalussamme voit valita työpajoja tutustu, perehdy ja syvenny-tasojen mukaan.
+                  2. Valitse tasosi: tutustu, perehdy tai syvenny.
                   </p>
                   <div className="App--description__levels">
                   <p>
@@ -225,7 +222,44 @@ class App extends Component {
                   <strong>Syvenny (punainen):</strong><br/> Työpajoissa sukelletaan syvemmälle rajattuun aiheeseen. Valitse tämä, jos haluat vähemmästä enemmän. Joissakin työpajoissa omat kokemukset tai aiempi tietämys aiheesta ovat toivottavia keskusteluun osallistumiseksi.
                   </p>
                   <p>
+                  3. Valitse johtamisen osa-alueet, joihin haluat keskittyä. Olemme luokitelleet työpajat partion johtamismallin mukaan itsensä johtamistaitoihin (minä), vuorovaikutustaitoihin (ryhmä), organisointitaitoihin (toiminta) ja visiointitaitoihin (päämäärä).
+                  </p>
+                  <p>
+                  Minä
+                  </p>
+                  <ul>
+                    <li>Hyvinvointi ja elämänhallinta</li>
+                    <li>Suhde itseen</li>
+                    <li>Menestyminen työelämässä</li>
+                  </ul>
+                  <p>
+                  Ryhmä
+                  </p>
+                  <ul>
+                    <li>Ihmisten johtaminen</li>
+                    <li>Ihmisten kohtaaminen</li>
+                    <li>Vuorovaikutus- ja yhteistyötaidot</li>
+                  </ul>
+                  <p>
+                  Toiminta
+                  </p>
+                  <ul>
+                    <li>Kehittäminen ja muutos</li>
+                    <li>Työelämätaidot</li>
+                    <li>Toiminnan työkaluja</li>
+                  </ul>
+                  <p>
+                  Päämäärä
+                  </p>
+                  <ul>
+                    <li>Halu toimia</li>
+                    <li>Vastuullisuus</li>
+                  </ul>
+                  <p>
                   Vaeltajat (18 - 21-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”Suosittelemme Vaeltajille”. 
+                  </p>
+                  <p>
+                  Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa. Ohjeet ilmoittautumisesta lähetetään tapahtumaan ilmoittautuneille sähköpostilla.
                   </p>
                   </div>
               </div>
