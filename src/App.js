@@ -202,10 +202,10 @@ class App extends Component {
                 <p className="App--description__text"><p/>
                 </p>
                   <p>
-                  Selaa työpajoja etukäteen, ilmoittaudu elokuussa. Ohjelma täydentyy vielä heinäkuun aikana.
+                  Työpajailmoittautuminen aukeaa 5.8. klo 15:00, ja sulkeutuu 14.8. klo 23:59. Henkilökohtainen ilmoittautumislinkki on lähetetty sinulle sähköpostissa, jonka annoit ilmoittautuessasi. (Partiolainen, se on sama, joka on merkitty kuksaan) Ongelmatapauksissa ota yhteys johtajatulet@partio.fi
                   </p>
                   <p>
-                  1. Valitse lauantaiksi kaksi työpajaa - yksi aamu- ja yksi iltapäivälle. Iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo. 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo. 16:00 - 16:45 järjestettävää puheenvuoroa.  
+                  1. Valitse lauantaiksi kaksi työpajaa - yksi aamu- ja yksi iltapäivälle. Iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo 16:00 - 16:45 järjestettävää puheenvuoroa.  
                   </p>
                   <p className="App--description__text"></p>
                   <p>
