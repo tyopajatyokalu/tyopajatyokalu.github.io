@@ -167,12 +167,11 @@ class App extends Component {
     )
   }
 
-  renderFavoritesList() {
-    const { events, favorites } = this.state
+  renderFavoritesList(favoritedEvents) {
     return (
       <Row>
         <Col sm={12}>
-          <FavoritesList favorites={favorites} events={events} onToggleFavorite={this.handleToggleFavorite} />
+          <FavoritesList favoritedEvents={favoritedEvents} onToggleFavorite={this.handleToggleFavorite} />
         </Col>
       </Row>
     )
@@ -189,7 +188,15 @@ class App extends Component {
   }
 
   render() {
-    const { showList, favorites } = this.state;
+    const { showList, favorites, events } = this.state;
+    const favoritedEvents = _.reduce(favorites, (sum, key) => {
+			const event = _.find(events, e => Favorites.getKey(e) === key);
+			if (event) {
+				return sum.concat(event);
+			}
+			return sum;
+    }, []);
+    
     return (
       <div className="App">
         <HeroImage />
@@ -272,7 +279,7 @@ class App extends Component {
                   <span className="App--toggle-view__option-text">Selaa työpajoja</span>
                 </div>
                 <div onClick={() => this.setState({ showList: false })} className={`App--toggle-view__option ${showList ? '' : 'active'}`}>
-                  <span className="App--toggle-view__option-text">Omat suosikit ({favorites.length})</span>
+                  <span className="App--toggle-view__option-text">Omat suosikit ({favoritedEvents.length})</span>
                 </div>
               </div>
             </Col>
@@ -281,7 +288,7 @@ class App extends Component {
             (
               this.renderLoading()
             ) : (
-              showList ? this.renderEventList() : this.renderFavoritesList()
+              showList ? this.renderEventList() : this.renderFavoritesList(favoritedEvents)
             )}
         </Container>
         <div style={{ height: '100px' }} />

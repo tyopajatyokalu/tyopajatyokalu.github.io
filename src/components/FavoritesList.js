@@ -6,14 +6,7 @@ import Favorites from '../services/favorites';
 class FavoritesList extends Component {
 
 	renderItems() {
-		const { favorites, events } = this.props;
-		const favoritedEvents = _.reduce(favorites, (sum, key) => {
-			const event = _.find(events, e => Favorites.getKey(e) === key);
-			if (event) {
-				return sum.concat(event);
-			}
-			return sum;
-		}, []);
+		const { favoritedEvents } = this.props;
 
 		return _.sortBy(favoritedEvents, 'time').map(event => {
 			return (
