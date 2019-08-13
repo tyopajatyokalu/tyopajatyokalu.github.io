@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "845cb9c0ccf4c0b735b8",
-    "url": "/static/css/main.10fa83cc.chunk.css"
+    "revision": "2188d7333d7bbb299eed",
+    "url": "/static/css/main.4a37f12b.chunk.css"
   },
   {
-    "revision": "845cb9c0ccf4c0b735b8",
+    "revision": "2188d7333d7bbb299eed",
     "url": "/static/js/main.c39e9a79.chunk.js"
   },
   {
@@ -24,15 +24,15 @@ self.__precacheManifest = [
     "url": "/static/media/Tondu_Beta.ef566c49.ttf"
   },
   {
-    "revision": "3f482321becfaa40fcb19825fa717859",
-    "url": "/static/media/SourceSansPro-Regular.3f482321.ttf"
-  },
-  {
     "revision": "7e0ee8c45d872446649aacd3ce96e1f7",
     "url": "/static/media/SourceSansPro-Bold.7e0ee8c4.ttf"
   },
   {
-    "revision": "f3d04882a20565cfbcd74ff634c662be",
+    "revision": "3f482321becfaa40fcb19825fa717859",
+    "url": "/static/media/SourceSansPro-Regular.3f482321.ttf"
+  },
+  {
+    "revision": "ddb46adff6868ae3f9d1984674ab4517",
     "url": "/index.html"
   }
 ];
