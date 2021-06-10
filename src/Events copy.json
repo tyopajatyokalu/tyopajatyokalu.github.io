@@ -4,7 +4,7 @@
         "host": "Kasper Henriksson",
         "description": "Grunder i svenska",
         "category": "Seminaari",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -17,7 +17,7 @@
         "host": "Juuso Lappalainen",
         "description": "Koodikoulu",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "14:00",
         "end_time": "15:30",
         "tags": [
@@ -29,7 +29,7 @@
         "host": "Maiju Aspegren",
         "description": "Tule muuttamaan elämäsi!",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Syvenny",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -42,7 +42,7 @@
         "host": "Teemu Lemetti",
         "description": "Teemukissa teemukissa",
         "category": "Elämys",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -56,7 +56,7 @@
         "host": "Henri Heliö",
         "description": "Keinuttelun perusteet",
         "category": "Seminaari",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -70,7 +70,7 @@
         "host": "Jenna Kallunki",
         "description": "Painonnoston perusteet 2",
         "category": "Elämys",
-        "level": "Syventävä",
+        "level": "Syvenny",
         "start_time": "14:00",
         "end_time": "17:00",
         "tags": [
@@ -84,7 +84,7 @@
         "host": "Petrus Holm",
         "description": "Menkää töihi",
         "category": "Elämys",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -98,7 +98,7 @@
         "host": "Julia Ehrnrooth",
         "description": "Dissain",
         "category": "Seminaari",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -112,7 +112,7 @@
         "host": "Martta Jämsén",
         "description": "Tyämaa_johtaminen",
         "category": "Elämys",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "14:00",
         "end_time": "17:00",
         "tags": [
@@ -127,7 +127,7 @@
         "host": "Silvia Geier",
         "description": "Markkinointi-sutturat VEKS",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Syvenny",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -141,7 +141,7 @@
         "host": "Iiro Nurmi",
         "description": "Opi elämään kuin lokki.",
         "category": "Seminaari",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "14:00",
         "end_time": "15:30",
         "tags": [
@@ -154,7 +154,7 @@
         "host": "Minea Erviö",
         "description": "Näin vuolet kuksan, josta voi juoda viinaa.",
         "category": "Elämys",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "14:00",
         "end_time": "17:00",
         "tags": [
@@ -169,7 +169,7 @@
         "host": "Antti Niini",
         "description": "Näin ajat linnut ulos Saunalta.",
         "category": "Elämys",
-        "level": "Syventävä",
+        "level": "Syvenny",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -181,7 +181,7 @@
         "host": "Nolifers",
         "description": "Painonoston perusteet",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -194,7 +194,7 @@
         "host": "Juntticon",
         "description": "Opi käyttäytymään kuin juntti.",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -207,7 +207,7 @@
         "host": "Aaltoes",
         "description": "Työttömyyden perusteet",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Syvenny",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -221,7 +221,7 @@
         "host": "Startup Lifters",
         "description": "Lokkeilemalla Piilaaksoon!",
         "category": "Seminaari",
-        "level": "Perustaso",
+        "level": "Tutustu",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -234,7 +234,7 @@
         "host": "Joni Joentakanen",
         "description": "Näin opit pummimaan nuuskaa tilanteessa kuin tilanteessa",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "14:00",
         "end_time": "15:30",
         "tags": [
@@ -246,7 +246,7 @@
         "host": "Matti Talvela",
         "description": "rejrgkeågkrpthkrtö",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "15:30",
         "end_time": "17:00",
         "tags": [
@@ -258,7 +258,7 @@
         "host": "Patrik Holopainen",
         "description": "Nönönönööö",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [
@@ -271,7 +271,7 @@
         "host": "Jussi Karttila",
         "description": "Jussi Karttila, perustajaosakas, toimitusjohtaja, Aivan Innovations Oy. Tekoälystä puhutaan paljon, mutta konkretia tai kosketuspinta arkeen on usein hyvin vähäistä. Tässä työpajassa keskustellaan konkreettisista esimerkeistä, joissa tekoäly helpottaa työntekoa. Kuulet samalla tekoäly-start-up Aivan Innovations Oy:n (aivan.ai) tarinan. ",
         "category": "Seminaari",
-        "level": "Syventävä",
+        "level": "Perehdy",
         "start_time": "11:00",
         "end_time": "12:30",
         "tags": [

@@ -2,18 +2,35 @@ import _ from 'lodash';
 
 const EventFilters = {
 
+	// TIMES: {
+	// 	morning: '11:00-12:30',
+	// 	afternoon_long: '14:15-16:45',
+	// 	afternoon_short: '14:15-15:45',
+	// 	afternoon_keynote: '16:00-16:45'
+	// },
+
 	TIMES: {
-		morning: '11:00-12:30',
-		afternoon_long: '14:15-16:45',
-		afternoon_short: '14:15-15:45',
-		afternoon_keynote: '16:00-16:45'
+		morning1: '11:00-12:30',
+		morning2: '11:15-12:45',
+		morning3: '11:30-13:00',
+		afternoon1: '15:30-17:00',
+		afternoon2: '15:45-17:15',
+		afternoon3: '16:00-17:30',
+		afternoon4: '15:00-17:15',
+		sunday: 'Sunnuntai'
 	},
 
+	// LEVEL_MAPPING: {
+	// 	Tutustu: 1,
+	// 	Perehdy: 2,
+	// 	Syvenny: 3,
+	// },
+
 	LEVEL_MAPPING: {
-		Tutustu: 1,
-		Perehdy: 2,
-		Syvenny: 3,
+		Perustaso: 1,
+		Syventävä: 2,
 	},
+
 
 	filter: (events, levels = [], tags = [], searchText = '') => {
 		return events.filter(event => {

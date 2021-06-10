@@ -13,6 +13,8 @@ import EventFilters from './services/eventFilters';
 import Favorites from './services/favorites';
 import FavoritesList from './components/FavoritesList';
 
+import TEST_EVENTS from './Events.json';
+
 class App extends Component {
 
   constructor(props) {
@@ -38,6 +40,17 @@ class App extends Component {
   }
 
   componentDidMount() {
+    // TEST DATA USAGE 
+    // TEST_EVENTS.forEach(event => {
+    //   event = event.time = `${event.start_time}-${event.end_time}`;
+    // })
+    // console.log(TEST_EVENTS);
+    // this.setState({
+    //   events: _.sortBy(TEST_EVENTS, 'name'),
+    //   loading: false,
+    // });
+
+    // ACTUAL DATA
     EventService.getEvents().then(data => {
       this.setState({
         events: _.sortBy(data, 'name'),
@@ -114,6 +127,7 @@ class App extends Component {
             />
           </Col>
           <Col sm={12} md={6}>
+            {/* Levels / taitotasot tulee taustasta */}
             <Filters
               title="Valitse taitotaso(t): "
               options={skillLevels}
@@ -140,8 +154,13 @@ class App extends Component {
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
               title="Aamupäivä"
-              times={[EventFilters.TIMES.morning]}
+              times={[
+                EventFilters.TIMES.morning1,
+                EventFilters.TIMES.morning2,
+                EventFilters.TIMES.morning3,
+              ]}
               events={filteredEvents}
+              id='morning'
             />
           </Col>
           <Col sm={12} md={4}>
@@ -149,17 +168,24 @@ class App extends Component {
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
               title="Iltapäivä"
-              times={[EventFilters.TIMES.afternoon_short, EventFilters.TIMES.afternoon_long]}
+              times={[
+                EventFilters.TIMES.afternoon1,
+                EventFilters.TIMES.afternoon2,
+                EventFilters.TIMES.afternoon3,
+                EventFilters.TIMES.afternoon4
+              ]}
               events={filteredEvents}
+              id='afternoon'
             />
           </Col>
           <Col sm={12} md={4}>
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Puheenvuorot"
-              times={[EventFilters.TIMES.afternoon_keynote]}
+              title="Sunnuntai"
+              times={[EventFilters.TIMES.sunday]}
               events={filteredEvents}
+              id='sunday'
             />
           </Col>
         </Row>
