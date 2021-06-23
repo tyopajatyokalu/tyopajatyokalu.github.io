@@ -4,12 +4,16 @@ import './Event.css';
 import Tag from './Tag';
 import Favorites from '../services/favorites';
 
-const colors = {
-	"Tutustu": "#f0e105",
-	"Perehdy": "#f0a01e",
-	"Syvenny": "#f04150",
-}
+// const colors = {
+// 	"Tutustu": "#f0e105",
+// 	"Perehdy": "#f0a01e",
+// 	"Syvenny": "#f04150",
+// }
 
+const colors = {
+	"Perustaso": "#f0e105",
+	"Syventävä": "#f0a01e",
+}
 
 class Event extends Component {
 

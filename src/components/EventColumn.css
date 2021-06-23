@@ -2,6 +2,7 @@
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+	padding: 10px;
 }
 
 .EventColumn--title {
@@ -29,4 +30,16 @@
 .EventColumn--empty__text {
 	font-size: 16px;
 	font-weight: bold;
+}
+
+#morning {
+	background: lightgreen;
+}
+
+#afternoon {
+	background: lightgray;
+}
+
+#sunday {
+	background: lightblue;
 }

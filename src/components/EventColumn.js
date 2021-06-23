@@ -11,6 +11,7 @@ class EventColumn extends Component {
 		title: PropTypes.string,
 		time: PropTypes.string,
 		events: PropTypes.array,
+		id: PropTypes.string,
 	}
 
 	renderEvents() {
@@ -39,8 +40,8 @@ class EventColumn extends Component {
 
 	render() {
 		return (
-			<div className="EventColumn">
-				<h2 className="EventColumn--title">{this.props.title} <br /><span>{this.props.times.join(' & ')}</span></h2>
+			<div className="EventColumn" id={this.props.id}>
+				<h2 className="EventColumn--title">{this.props.title} <br /><span>{this.props.times.join(` & \n`)}</span></h2>
 				<div className="EventColumn--events">
 					{this.renderEvents()}
 				</div>
