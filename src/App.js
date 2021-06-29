@@ -232,15 +232,24 @@ class App extends Component {
               <div className="App--description">
                 <p className="App--description__title">Tervetuloa Työpajatyökaluun!</p>
 
-                <p className="App--description__text"><p/>
-                </p>
-                  <p>
+                <p className="App--description__text"></p>
+                  
+                  {/* <p>
                   Työpajailmoittautuminen aukeaa 13.8. klo 18:00, ja sulkeutuu 23.8. klo 23:59. Henkilökohtainen ilmoittautumislinkki on lähetetty sinulle sähköpostissa, jonka annoit ilmoittautuessasi. (Partiolainen, se on sama, joka on merkitty kuksaan) Ongelmatapauksissa ota yhteys johtajatulet@partio.fi
                   </p>
                   <p>
                   1. Valitse lauantaiksi 5 mieluisinta työpajaa - yksi aamu- ja yksi iltapäivälle. Iltapäivän työpajat ovat eri pituisia. Mikäli valitset lyhyemmän työpajan (klo 14:15 - 15:45), voit halutessasi mennä kuuntelemaan vielä klo 16:00 - 16:45 järjestettävää puheenvuoroa. Uudessa lomakkeessa <strong>valitaan 5–10</strong> työpajavaihtoehtoa <strong>itselle mieluisimmassa</strong> järjestyksessä. Kiinnostavin ensin! Tiedon työpajoista, joihin pääsit, saat seuraavan vuorokauden sisällä.
+                  </p> */}
+                  
+                  <p>
+                  Johtajatulille on tulossa yli 200 työpajaa, joten haluamme antaa sinulle mahdollisuuden tutustua kattaukseen hyvissä ajoin. Tätä varten olemme luoneet tämän Työpajatyökalun, jossa voit selailla ja mutustella valikoimaa rauhassa, sillä ilmoittautuminen alkaa vasta elokuun alussa.
                   </p>
-                  <p className="App--description__text"></p>
+
+                  <p>
+                  Työpajatyökalu avautuu tutustumista varten la <strong>5.7.</strong>
+                  </p>
+
+                  {/* <p className="App--description__text"></p>
                   <p>
                   2. Valitse tasosi: tutustu, perehdy tai syvenny.
                   </p>
@@ -293,9 +302,9 @@ class App extends Component {
                   </p>
                   <p>
                   Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa. Ohjeet ilmoittautumisesta lähetetään tapahtumaan ilmoittautuneille sähköpostilla.
-                  </p>
+                  </p> */}
                   </div>
-              </div>
+              {/* </div> */}
             </Col>
           </Row>
           <Row>
