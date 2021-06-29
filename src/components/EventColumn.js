@@ -41,7 +41,7 @@ class EventColumn extends Component {
 	render() {
 		return (
 			<div className="EventColumn" id={this.props.id}>
-				<h2 className="EventColumn--title">{this.props.title} <br /><span>{this.props.times.join(` & \n`)}</span></h2>
+				<h2 className="EventColumn--title">{this.props.title} <br /><span>{this.props.times.map((e, i) => <p key={i}>{e}</p>)}</span></h2>
 				<div className="EventColumn--events">
 					{this.renderEvents()}
 				</div>

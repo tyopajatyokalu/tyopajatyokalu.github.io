@@ -13,10 +13,10 @@ const EventFilters = {
 		morning1: '11:00-12:30',
 		morning2: '11:15-12:45',
 		morning3: '11:30-13:00',
-		afternoon1: '15:30-17:00',
-		afternoon2: '15:45-17:15',
-		afternoon3: '16:00-17:30',
-		afternoon4: '15:00-17:15',
+		afternoon1: '15:00-17:15',
+		afternoon2: '15:30-17:00',
+		afternoon3: '15:45-17:15',
+		afternoon4: '16:00-17:30',
 		sunday: 'Sunnuntai'
 	},
 
