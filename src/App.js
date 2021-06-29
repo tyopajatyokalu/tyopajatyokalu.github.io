@@ -248,9 +248,6 @@ class App extends Component {
                   <p>
                   Työpajatyökalu avautuu tutustumista varten la <strong>5.7.</strong>
                   </p>
-                  <p>
-                  Lorem ipsum
-                  </p>
 
                   {/* <p className="App--description__text"></p>
                   <p>
