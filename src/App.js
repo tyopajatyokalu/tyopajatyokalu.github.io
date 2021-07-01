@@ -153,50 +153,40 @@ class App extends Component {
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Lauantai Aamupäivä"
-              times={[]}
+              title="Aamupäivä"
+              times={[
+                EventFilters.TIMES.morning1,
+                EventFilters.TIMES.morning2,
+                EventFilters.TIMES.morning3,
+              ]}
               events={filteredEvents}
               id='morning'
             />
-            
-             {/*  times={[
-              //   EventFilters.TIMES.morning1,
-              //   EventFilters.TIMES.morning2,
-              //   EventFilters.TIMES.morning3,
-              // ]} */}
-              
           </Col>
           <Col sm={12} md={4}>
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Lauantai Iltapäivä"
-
-              times={[]}
+              title="Iltapäivä"
+              times={[
+                EventFilters.TIMES.afternoon1,
+                EventFilters.TIMES.afternoon2,
+                EventFilters.TIMES.afternoon3,
+                EventFilters.TIMES.afternoon4
+              ]}
               events={filteredEvents}
               id='afternoon'
             />
-            
-             {/* // times={[
-              //   EventFilters.TIMES.afternoon1,
-              //   EventFilters.TIMES.afternoon2,
-              //   EventFilters.TIMES.afternoon3,
-              //   EventFilters.TIMES.afternoon4
-              // ]} */}
-            
           </Col>
           <Col sm={12} md={4}>
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Sunnuntai Vertaisverstaat"
-              times={[]}
+              title="Sunnuntai"
+              times={[EventFilters.TIMES.sunday]}
               events={filteredEvents}
               id='sunday'
             />
-{/*            
-            // times={[EventFilters.TIMES.sunday]}
-              */}
           </Col>
         </Row>
       </React.Fragment>
