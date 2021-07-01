@@ -153,7 +153,7 @@ class App extends Component {
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Aamupäivä"
+              title="Lauantai Aamupäivä"
               times={[
                 EventFilters.TIMES.morning1,
                 EventFilters.TIMES.morning2,
@@ -167,7 +167,7 @@ class App extends Component {
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Iltapäivä"
+              title="Lauantai Iltapäivä"
               times={[
                 EventFilters.TIMES.afternoon1,
                 EventFilters.TIMES.afternoon2,
@@ -182,7 +182,7 @@ class App extends Component {
             <EventColumn
               onToggleFavorite={this.handleToggleFavorite}
               isFavorite={this.isFavorite}
-              title="Sunnuntai"
+              title="Sunnuntai Vertaisverstas"
               times={[EventFilters.TIMES.sunday]}
               events={filteredEvents}
               id='sunday'
