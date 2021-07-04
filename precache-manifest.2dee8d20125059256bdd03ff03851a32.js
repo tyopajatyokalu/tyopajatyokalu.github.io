@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1a785af5831346a71c65",
+    "revision": "e45d2115d9357181e3f0",
     "url": "/static/css/main.b03305fe.chunk.css"
   },
   {
-    "revision": "1a785af5831346a71c65",
-    "url": "/static/js/main.14cc7df4.chunk.js"
+    "revision": "e45d2115d9357181e3f0",
+    "url": "/static/js/main.e6cd839b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/static/media/maisema_EevaHelle_IMG_9089.3be67a88.jpg"
   },
   {
-    "revision": "ef566c49dbc7a7f49fe14f069d5594fb",
-    "url": "/static/media/Tondu_Beta.ef566c49.ttf"
-  },
-  {
     "revision": "3f482321becfaa40fcb19825fa717859",
     "url": "/static/media/SourceSansPro-Regular.3f482321.ttf"
+  },
+  {
+    "revision": "ef566c49dbc7a7f49fe14f069d5594fb",
+    "url": "/static/media/Tondu_Beta.ef566c49.ttf"
   },
   {
     "revision": "7e0ee8c45d872446649aacd3ce96e1f7",
     "url": "/static/media/SourceSansPro-Bold.7e0ee8c4.ttf"
   },
   {
-    "revision": "788606f998a6bb8706e4ba6cdc02cb8a",
+    "revision": "f0a15185d8c272f6891546d5549e6d42",
     "url": "/index.html"
   }
 ];
