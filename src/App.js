@@ -230,7 +230,7 @@ class App extends Component {
           <Row>
             <Col sm={12}>
               <div className="App--description">
-                <p className="App--description__title">Tervetuloa Työpajatyökaluun!</p>
+                <p className="App--description__title">Tervetuloa tutustumaan valinnaiseen ohjelmaan! </p>
 
                 <p className="App--description__text"></p>
                   
@@ -242,13 +242,99 @@ class App extends Component {
                   </p> */}
                   
                   <p>
-                  Johtajatulille on tulossa yli 200 työpajaa, joten haluamme antaa sinulle mahdollisuuden tutustua kattaukseen hyvissä ajoin. Tätä varten olemme luoneet tämän Työpajatyökalun, jossa voit selailla ja mutustella valikoimaa rauhassa, sillä ilmoittautuminen alkaa vasta elokuun alussa.
+                  Johtajatulille on tulossa noin 300 etukäteen valittavaa työpajaa, puheenvuoroa ja vertaisverstasta. Haluamme auttaa sinua löytämään itsellesi niistä sopivimmat. Voit selailla valikoimaa tällä sivustolla. 
                   </p>
 
                   <p>
-                  Työpajatyökalu avautuu tutustumista varten la <strong>5.7.</strong>
+                  Lauantain työpajat ovat osallistavia, ja ne toteutetaan noin 30 henkilön ryhmissä. Puheenvuorot esitetään lavoilla, ja niitä kuuntelemaan pääsee isompi joukko ihmisiä. Pääpuheenvuorot ovat tarjolla kaikille osallistujille, eikä niihin tarvitse erikseen ilmoittautua.  
+                  </p>
+                  <p>
+                  Vertaisverstaat toteutetaan sunnuntaina. Niissä verstaiden vetäjiksi ilmoittautuneet osallistujat jakavat omia taitojaan ja kiinnostuksen kohteitaan toisille osallistujille. Verstaiden aiheet ovat vapaamuotoisempia ja sisältävät kaikkea venyttelystä tulen teon opetteluun.  
+                  </p>
+                  <p>
+                  Itse ilmoittautuminen valinnaisiin ohjelmiin alkaa <strong>tiistaina 3.8.2021 ja päättyy to 12.8.2021. </strong>
+                  </p>
+                  <p>
+                  HUOM! Ilmoittautumisessa ei tarvitse olla nopein, vaan sinulla on rauhassa aikaa valita sekä ilmoittautua pajoihin. 
+                  </p>
+                  <ol>
+                    <li>Selaile teemoja, pajoja ja verstaita sivustolla. Merkitse talteen kiinnostavimpien ohjelmien numero ja nimi. <br></br> </li>
+                    <li>Lopullinen valinta tehdään ilmoittautumisjärjestelmä Kuksassa. Työpajoihin, puheenvuoroihin ja vertaisverstaisiin ilmoittaudutaan siellä tapahtumailmoittautumisen tapaan. Saat ilmoittamaasi sähköpostiosoitteeseen linkin Kuksaan ja ohjeet lähempänä ilmoittautumisen alkua. <br></br></li>
+
+                    <li>Kuksassa työpajoihin ilmoittautuessasi valitset itseäsi eniten kiinnostavat teemat. Tämän lisäksi voit valita 10 työpajaa ja vertaisverstasta. Osallistujat jaetaan lauantain työpajoihin ja sunnuntain vertaisverstaisiin ilmoittautumisten perusteella. <br></br></li>
+                   
+                    <li>Saat sähköpostiisi tiedon sinulle valituista työpajoista sekä vertaisverstaasta viimeistään maanantaina 23.8. Koska osallistujia on yli 3000 henkilöä emme valitettavasti voi taata, että jokainen pääsee haluamaansa pajaan/verstaaseen. Pyrimme kuitenkin siihen, että jokaiselle löytyy tapahtumasta mielekästä ohjelmaa. <br></br></li>
+                  </ol>
+                  
+                   
+
+                  
+                   
+                  
+                  
+                  <p className="App--description__title">  Näin selailet ohjelmaa </p>
+                  <div className="App--description__levels">
+                    <p>Olemme luoneet sivustolle suodattimia, jotta selaaminen olisi helpompaa. Voit valita kategoriat, jolloin työkalu rajoittaa näkymän vain osumiin, jotka sisältävät valitut tägit.</p>
+                  <p>
+                  <strong>Valittavat kategoriat </strong> 
+                  </p>
+                  <ul>
+                    <li> Kategorioina kaikessa ohjelmassa johtajatulien teemat: empatia, hyvinvointi, kestävyys.</li>
+                    <li>Työpajoissa (T): Valitse johtamisen osa-alueet, joihin haluat keskittyä. Olemme luokitelleet työpajat Maailman partiotyttöjärjestön (WAGGGS) <a href="https://www.partio.fi/lippukunnille/pestien-tuki/johtaminen-partiossa/">johtamismallin</a> mukaan. </li>
+                    <li>Vertaisverstaissa (V): Valitse haluamasi aihepiirit </li>
+                    <li>Vaeltajat (18 - 22-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”T: Suosittelemme Vaeltajille”. </li>
+                    <li>Puheenvuorot löytyvät numeroilla 1-XX </li>
+                  </ul>
+                  <p>
+                 
+                  </p>
+                  <p>
+                  
+                  </p>
+                  <p>
+                  
+                  </p>
+                  <p>
+                  
+                  </p>
+                  <p>
+                  
                   </p>
 
+
+                  
+                  <p>
+                  <strong>Valittavat taitotasot </strong>
+                  </p>
+                  <p>
+                  Perustaso (keltainen reunus): Työpajoissa harjoitellaan uusia taitoja ja tutustutaan uusiin aiheisiin ja näkökulmiin tarvitsematta aiempaa tietoa tai kokemusta. 
+                  </p>
+                  <p>
+                  Syventävä (oranssi reunus): Työpajoissa sukelletaan syvemmälle rajattuun aiheeseen. Valitse tämä, jos haluat vähemmästä enemmän. Joissakin työpajoissa omat kokemukset tai aiempi tietämys aiheesta ovat toivottavia keskusteluun osallistumiseksi. 
+                  </p>
+                  </div>
+
+                  <p>
+                  <strong>Vapaa haku </strong>
+                  </p>
+                  <p>
+                  Vapaa haku toimii työpajan nimellä, vetäjällä tai kuvauksessa olevalla sanalla. Tätä varten olemme lisänneet avainsanoja kuvauksiin. 
+                  </p>
+
+                  <p>
+                  <strong>Suosikkien merkitseminen </strong> 
+                  </p>
+                  <p>
+                  Voit merkitä jokaisen ohjelmakortin alareunasta työpajan/puheenvuoron/vertaisverstaan omiin suosikkeihisi. Löydät suosikkilistan valitsemalla tämän tekstin alta ”Omat suosikit”. Suosikkilista tallentuu selaimen välimuistiin, joten sen tyhjentäminen tyhjentää myös listan. 
+                  </p>
+                  
+              
+
+
+
+
+
+                  
                   {/* <p className="App--description__text"></p>
                   <p>
                   2. Valitse tasosi: tutustu, perehdy tai syvenny.
@@ -303,8 +389,9 @@ class App extends Component {
                   <p>
                   Työpajoja on tällä hetkellä yli 150, joten selaile rauhassa. Työpajoihin ilmoittaudutaan elokuussa. Ohjeet ilmoittautumisesta lähetetään tapahtumaan ilmoittautuneille sähköpostilla.
                   </p> */}
-                  </div>
+                
               {/* </div> */}
+              </div>
             </Col>
           </Row>
           <Row>
