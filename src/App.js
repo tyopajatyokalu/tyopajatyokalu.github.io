@@ -263,7 +263,7 @@ class App extends Component {
 
                     <li>Kuksassa työpajoihin ilmoittautuessasi valitset itseäsi eniten kiinnostavat teemat. Tämän lisäksi voit valita 10 työpajaa ja vertaisverstasta. Osallistujat jaetaan lauantain työpajoihin ja sunnuntain vertaisverstaisiin ilmoittautumisten perusteella. <br></br></li>
                    
-                    <li>Saat sähköpostiisi tiedon sinulle valituista työpajoista sekä vertaisverstaasta viimeistään maanantaina 23.8. Koska osallistujia on yli 3000 henkilöä emme valitettavasti voi taata, että jokainen pääsee haluamaansa pajaan/verstaaseen. Pyrimme kuitenkin siihen, että jokaiselle löytyy tapahtumasta mielekästä ohjelmaa. <br></br></li>
+                    <li>Saat sähköpostiisi tiedon sinulle valituista työpajoista sekä vertaisverstaasta viimeistään maanantaina 23.8. <br></br></li>
                   </ol>
                   
                    
@@ -328,6 +328,7 @@ class App extends Component {
                   Voit merkitä jokaisen ohjelmakortin alareunasta työpajan/puheenvuoron/vertaisverstaan omiin suosikkeihisi. Löydät suosikkilistan valitsemalla tämän tekstin alta ”Omat suosikit”. Suosikkilista tallentuu selaimen välimuistiin, joten sen tyhjentäminen tyhjentää myös listan. 
                   </p>
                   
+                  <p><i>Koska osallistujia on yli 3000 henkilöä emme valitettavasti voi taata, että jokainen pääsee haluamaansa pajaan/verstaaseen. Pyrimme kuitenkin siihen, että jokaiselle löytyy tapahtumasta mielekästä ohjelmaa.</i> </p>
               
 
 
