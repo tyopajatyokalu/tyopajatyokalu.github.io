@@ -281,12 +281,12 @@ class App extends Component {
                   <ul>
                     <li> Kategorioina kaikessa ohjelmassa johtajatulien teemat: empatia, hyvinvointi, kestävyys.</li>
                     <li>Työpajoissa (T): Valitse johtamisen osa-alueet, joihin haluat keskittyä. Olemme luokitelleet työpajat Maailman partiotyttöjärjestön (WAGGGS) <a href="https://www.partio.fi/lippukunnille/pestien-tuki/johtaminen-partiossa/">johtamismallin</a> mukaan. </li>
-                    <li>Vertaisverstaissa (V): Valitse haluamasi aihepiirit. Vertaisverstaat päivittyvät vielä ennen ilmoittautumisen alkua.</li>
+                    <li>Vertaisverstaissa (V): Valitse haluamasi aihepiirit. </li>
                     <li>Vaeltajat (18 - 22-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”T: Suosittelemme Vaeltajille”. </li>
                     <li>Puheenvuorot löytyvät numeroilla 1-15 </li>
                   </ul>
                   <p>
-                 
+                 Vertaisverstaat ja puheenvuorojen kuvakset päivittyvät vielä ennen ilmoittautumisen alkua. Haluatko vielä ilmoittaa verstaasi? Klikkaa <a href="https://forms.office.com/r/PuBrLmDwEA">tästä</a>
                   </p>
                   <p>
                   
@@ -329,7 +329,7 @@ class App extends Component {
                   </p>
                   
                   <p><i>Koska osallistujia on yli 3000 henkilöä emme valitettavasti voi taata, että jokainen pääsee haluamaansa pajaan/verstaaseen. Pyrimme kuitenkin siihen, että jokaiselle löytyy tapahtumasta mielekästä ohjelmaa.</i> </p>
-              
+                  <p>Kysyttävää? Ota yhteyttä johtajatulet @ partio.fi</p>
 
 
 
