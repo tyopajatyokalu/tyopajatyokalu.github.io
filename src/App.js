@@ -283,7 +283,7 @@ class App extends Component {
                     <li>Työpajoissa (T): Valitse johtamisen osa-alueet, joihin haluat keskittyä. Olemme luokitelleet työpajat Maailman partiotyttöjärjestön (WAGGGS) <a href="https://www.partio.fi/lippukunnille/pestien-tuki/johtaminen-partiossa/">johtamismallin</a> mukaan. </li>
                     <li>Vertaisverstaissa (V): Valitse haluamasi aihepiirit. </li>
                     <li>Vaeltajat (18 - 22-vuotiaat) huomio! Teille on valittu joukko juuri Vaeltaja-ohjelmaan sopivia työpajoja ja ne löytyvät helposti valitsemalla kategoriaksi: ”T: Suosittelemme Vaeltajille”. </li>
-                    <li>Puheenvuorot löytyvät numeroilla 1-15 </li>
+                    <li>Pääpuhujat ovat avoimet kaikille ja tapahtuvat työpaja-aikojen ulkopuolella. Muut valittavat puheenvuorot löytyvät numeroilla 1-4 </li>
                   </ul>
                   <p>
                  Vertaisverstaat ja puheenvuorojen kuvakset päivittyvät vielä ennen ilmoittautumisen alkua. Haluatko vielä ilmoittaa verstaasi? Klikkaa <a href="https://forms.office.com/r/PuBrLmDwEA">tästä</a>
