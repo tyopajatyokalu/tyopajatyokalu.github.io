@@ -251,17 +251,19 @@ class App extends Component {
                   <p>
                   Vertaisverstaat toteutetaan sunnuntaina. Niissä verstaiden vetäjiksi ilmoittautuneet osallistujat jakavat omia taitojaan ja kiinnostuksen kohteitaan toisille osallistujille. Verstaiden aiheet ovat vapaamuotoisempia ja sisältävät kaikkea venyttelystä tulen teon opetteluun.  
                   </p>
-                  <p>
-                  Itse ilmoittautuminen valinnaisiin ohjelmiin alkaa <strong>tiistaina 3.8.2021 ja päättyy to 12.8.2021. </strong>
-                  </p>
+                  
+                  <p><strong>Ilmoittautumisohjeet:</strong></p>
                   <p>
                   HUOM! Ilmoittautumisessa ei tarvitse olla nopein, vaan sinulla on rauhassa aikaa valita sekä ilmoittautua pajoihin. 
                   </p>
+                  <p>
+                 Ilmoittautuminen työpajoihin on auki 3.8.-13.8. Linkki ilmoittautumisohjeisiin löytyy sähköpostiisi saappuneesta osallistujakirjeestä tai <a href="https://johtajatulet.fi/osallistujakirjeet/">tästä</a>
+                  </p>
                   <ol>
                     <li>Selaile teemoja, pajoja ja verstaita sivustolla. Merkitse talteen kiinnostavimpien ohjelmien numero ja nimi. <br></br> </li>
-                    <li>Lopullinen valinta tehdään ilmoittautumisjärjestelmä Kuksassa. Työpajoihin, puheenvuoroihin ja vertaisverstaisiin ilmoittaudutaan siellä tapahtumailmoittautumisen tapaan. Saat ilmoittamaasi sähköpostiosoitteeseen linkin Kuksaan ja ohjeet lähempänä ilmoittautumisen alkua. <br></br></li>
+                    <li>Lopullinen valinta tehdään ilmoittautumisjärjestelmä Kuksassa. Työpajoihin, puheenvuoroihin ja vertaisverstaisiin ilmoittaudutaan siellä tapahtumailmoittautumisen tapaan. <br></br></li>
 
-                    <li>Kuksassa työpajoihin ilmoittautuessasi valitset itseäsi eniten kiinnostavat teemat. Tämän lisäksi voit valita 10 työpajaa ja vertaisverstasta. Osallistujat jaetaan lauantain työpajoihin ja sunnuntain vertaisverstaisiin ilmoittautumisten perusteella. <br></br></li>
+                    <li>Kuksassa työpajoihin ilmoittautuessasi valitset ensimmäisenä ne ohjelmat, joihin osallistut. Sitten valitset itseäsi eniten kiinnostavat teemat. Tämän lisäksi voit valita 10 työpajaa ja vertaisverstasta. Osallistujat jaetaan lauantain työpajoihin ja sunnuntain vertaisverstaisiin valintojen perusteella. Muista valita myös Päivän Hyvä Työ! <br></br></li>
                    
                     <li>Saat sähköpostiisi tiedon sinulle valituista työpajoista sekä vertaisverstaasta viimeistään maanantaina 23.8. <br></br></li>
                   </ol>
