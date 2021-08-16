@@ -253,10 +253,11 @@ class App extends Component {
                   </p>
                   
                   <p><strong>Ilmoittautumisohjeet:</strong></p>
-                  <p>
+                  <p>Etukäteisilmoittautuminen on päättynyt. Saat pian sähköpostiisi viestin, jossa on sinulle valitut valinnaiset ohjelmat. Mikäli et muistanut ilmoittautua, tarkista tapahtumaan saapumisen yhteydessä mahdollisuus ilmoittautua vielä vapaille paikoille.</p>
+                  {/* <p>
                   HUOM! Ilmoittautumisessa ei tarvitse olla nopein, vaan sinulla on rauhassa aikaa valita sekä ilmoittautua pajoihin. 
-                  </p>
-                  <p>
+                  </p> */}
+                  {/* <p>
                  Ilmoittautuminen työpajoihin on auki 3.8.-13.8. Linkki ilmoittautumisohjeisiin löytyy sähköpostiisi saappuneesta osallistujakirjeestä tai <a href="https://johtajatulet.fi/osallistujakirjeet/">tästä</a>
                   </p>
                   <ol>
@@ -266,7 +267,7 @@ class App extends Component {
                     <li>Kuksassa työpajoihin ilmoittautuessasi valitset ensimmäisenä ne ohjelmat, joihin osallistut. Sitten valitset itseäsi eniten kiinnostavat teemat. Tämän lisäksi voit valita 10 työpajaa ja vertaisverstasta. Osallistujat jaetaan lauantain työpajoihin ja sunnuntain vertaisverstaisiin valintojen perusteella. Muista valita myös Päivän Hyvä Työ! <br></br></li>
                    
                     <li>Saat sähköpostiisi tiedon sinulle valituista työpajoista sekä vertaisverstaasta viimeistään maanantaina 23.8. <br></br></li>
-                  </ol>
+                  </ol> */}
                   
                    
 
@@ -288,7 +289,7 @@ class App extends Component {
                     <li>Pääpuhujat ovat avoimet kaikille ja tapahtuvat työpaja-aikojen ulkopuolella. Muut valittavat puheenvuorot löytyvät numeroilla 1-4 </li>
                   </ul>
                   <p>
-                 Vertaisverstaat ja puheenvuorojen kuvakset päivittyvät vielä ennen ilmoittautumisen alkua. Haluatko vielä ilmoittaa verstaasi? Klikkaa <a href="https://forms.office.com/r/PuBrLmDwEA">tästä</a>
+                 {/* Vertaisverstaat ja puheenvuorojen kuvakset päivittyvät vielä ennen ilmoittautumisen alkua. Haluatko vielä ilmoittaa verstaasi? Klikkaa <a href="https://forms.office.com/r/PuBrLmDwEA">tästä</a> */}
                   </p>
                   <p>
                   
