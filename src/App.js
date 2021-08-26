@@ -253,7 +253,7 @@ class App extends Component {
                   </p>
                   
                   <p><strong>Ilmoittautumisohjeet:</strong></p>
-                  <p>Työpajailmoittautiminen on päättynyt.</p>
+                  
                   <p>Työpajojen alkamisajat on tapahtumassa on porrastettu. Työpajojen tarkat ajat sekä työpajojen ja verstaisverstaiden sijaintipisteet löydät <a href="https://opas.johtajatulet.fi/tyopajat/">täältä:</a></p>
                   {/* <p>
                   HUOM! Ilmoittautumisessa ei tarvitse olla nopein, vaan sinulla on rauhassa aikaa valita sekä ilmoittautua pajoihin. 
